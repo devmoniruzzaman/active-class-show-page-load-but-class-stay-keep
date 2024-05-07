@@ -18,4 +18,4 @@
     $('.single-blurb-item-list').filter(function() {
       return $(this).text() === activeElementText;
     }).addClass('active');
-  }
+  } 
