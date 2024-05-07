@@ -1,3 +1,5 @@
+ <script>
+
 // Click event handler for each element
   $('.single-blurb-item-list').click(function(){
     var clickedElement = $(this);
@@ -15,3 +17,5 @@
       return $(this).text() === activeElementText;
     }).addClass('active');
   } 
+    
+  </script>
